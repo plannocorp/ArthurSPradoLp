@@ -3,74 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f3f0e9">
-  <meta name="description" content="Arthur S. Prado Advocacia. Atuação em defesa do trabalhador e do consumidor em Goiânia e região.">
-  <title>Arthur S. Prado Advocacia — Seus direitos, com atenção.</title>
+  <meta name="theme-color" content="#162d27">
+  <meta name="description" content="Arthur S. Prado Advocacia. Defesa do trabalhador e do consumidor. Atendimento presencial em Goiânia e online.">
+  <title>Arthur S. Prado — Advocacia com atenção à sua história</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/architecture.webp" as="image" fetchpriority="high">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <aside class="proposal-ribbon">PROPOSTA DE REDESIGN · CONCEITO PARA AVALIAÇÃO DO ESCRITÓRIO</aside>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="whatsapp" viewBox="0 0 24 24"><path d="m4 20 1-4a8.5 8.5 0 1 1 3 3Z"/><path d="M9 8c-2 2 1 6 4 7 1 .4 2-.3 2-1l-2-1-1 .8c-1-.5-2-1.5-2.5-2.5l.5-1.2Z"/></symbol>
+    <symbol id="briefcase" viewBox="0 0 32 32"><rect x="4" y="10" width="24" height="17" rx="2"/><path d="M11 10V6h10v4M4 17c8 4 16 4 24 0M16 17v5"/></symbol>
+    <symbol id="shield" viewBox="0 0 32 32"><path d="m16 3 11 4v9c0 6-7 10-11 13C12 26 5 22 5 16V7Z"/><path d="m10 16 4 4 8-8"/></symbol>
+    <symbol id="book" viewBox="0 0 32 32"><path d="M16 8c-3-3-8-4-12-3v20c4-1 9 0 12 3 3-3 8-4 12-3V5c-4-1-9 0-12 3Zm0 0v20"/></symbol>
+    <symbol id="location" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol>
+  </defs></svg>
+  <aside class="proposal-ribbon">Conceito de nova landing page <span>·</span> Proposta para avaliação do escritório</aside>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Arthur S. Prado Advocacia — início">
-      <span class="monogram" aria-hidden="true">AP</span>
-      <span class="brand-copy"><strong>ARTHUR S. PRADO</strong><small>ADVOCACIA</small></span>
-    </a>
-    <button class="menu-toggle" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
-    <nav class="nav" aria-label="Navegação principal">
-      <a href="#atuacao">Áreas de atuação</a><a href="#sobre">O advogado</a><a href="#duvidas">Dúvidas frequentes</a>
-      <a class="nav-cta" href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20jur%C3%ADdica." target="_blank" rel="noopener noreferrer">Fale pelo WhatsApp <span>↗</span></a>
-    </nav>
+    <div class="nav-shell">
+      <a class="brand" href="#inicio" aria-label="Arthur S. Prado Advocacia — início"><span class="monogram" aria-hidden="true">AP</span><span class="brand-copy"><strong>ARTHUR S. PRADO</strong><small>ADVOCACIA</small></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav class="nav" id="navigation" aria-label="Navegação principal"><a href="#atuacao">Atuação</a><a href="#sobre">O advogado</a><a href="#duvidas">Dúvidas frequentes</a><a class="nav-cta" href="#contato">Fale com o escritório <svg aria-hidden="true" focusable="false"><use href="#arrow"/></svg></a></nav>
+    </div>
   </header>
   <main>
     <section class="hero" id="inicio">
-      <div class="hero-texture"></div>
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> ADVOCACIA · GOIÂNIA, GO</p>
-        <h1>Seus direitos<br>merecem <em>atenção.</em></h1>
-        <p class="hero-lede">Atuação jurídica dedicada à defesa do trabalhador e do consumidor. Orientação clara para você entender o seu caso e decidir com segurança.</p>
-        <a class="button button-dark" href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20jur%C3%ADdica." target="_blank" rel="noopener noreferrer">Converse com o escritório <span>↗</span></a>
-        <div class="hero-proof"><span class="proof-icon">✳</span><span>Mais de 12 anos de dedicação ao Direito</span><i></i><span>Atendimento em Goiânia e região</span></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> DEFESA DO TRABALHADOR E DO CONSUMIDOR</p>
+          <h1>Seus direitos.<br>Sua história.<br><em>Nossa atenção.</em></h1>
+          <p class="hero-lede">Orientação jurídica com clareza, escuta e cuidado. Para você compreender seus direitos e encontrar o próximo passo.</p>
+          <div class="hero-actions"><a class="button button-gold" href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20jur%C3%ADdica." target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false"><use href="#whatsapp"/></svg> Converse com o escritório <svg aria-hidden="true" focusable="false" class="button-arrow"><use href="#arrow"/></svg></a><a class="hero-secondary" href="#atuacao">Conheça nossa atuação <span>↓</span></a></div>
+          <p class="hero-location"><svg aria-hidden="true" focusable="false"><use href="#location"/></svg> Goiânia, GO <span>·</span> Atendimento presencial e online</p>
+        </div>
+        <div class="hero-visual">
+          <figure class="hero-image"><img src="assets/architecture.webp" alt="Arcos de pedra iluminados pelo sol, imagem arquitetônica conceitual" width="1122" height="1402" fetchpriority="high"><figcaption><span>CLAREZA. RESPEITO. COMPROMISSO.</span><span>AP — 2026</span></figcaption></figure>
+          <div class="visual-seal" aria-hidden="true"><span>AP</span><small>ARTHUR S. PRADO</small></div>
+          <div class="visual-note"><span class="note-star">✳</span><p>O primeiro passo<br>é ouvir você.</p></div>
+        </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="arch-glow"></div><div class="arch-outline arch-a"></div><div class="arch-outline arch-b"></div>
-        <div class="art-seal"><div>AP</div><small>ADVOCACIA</small></div>
-        <div class="art-pillar p1"><b></b><i></i><i></i><i></i><strong></strong></div><div class="art-pillar p2"><b></b><i></i><i></i><i></i><strong></strong></div>
-        <div class="art-label"><span>01</span><span>DEFESA · ORIENTAÇÃO · CONFIANÇA</span></div>
-      </div>
-      <div class="hero-foot"><span>ARTHUR S. PRADO ADVOCACIA</span><a href="#atuacao">DESCUBRA COMO PODEMOS AJUDAR <b>↓</b></a></div>
+      <div class="hero-bottom"><span>ADVOCACIA COM ATENÇÃO A CADA HISTÓRIA</span><a href="#abordagem">CONTINUE EXPLORANDO <span>↓</span></a></div>
     </section>
-    <section class="intro" id="sobre">
-      <div class="section-tag">01 <span>—</span> UMA ADVOCACIA PRÓXIMA</div>
-      <div class="intro-grid"><p class="intro-note">A primeira etapa<br>é ouvir você.</p><div><h2>Informação clara.<br><em>Atuação com propósito.</em></h2><p class="copy">Quando surge uma questão jurídica, entender os próprios direitos é o começo. Cada situação tem seus detalhes — e merece ser analisada com seriedade, escuta e cuidado.</p><p class="copy">Arthur S. Prado atua de forma autônoma na defesa do trabalhador e do consumidor, com atendimento próximo e explicações diretas sobre os caminhos possíveis para cada caso.</p><a class="text-link" href="#atuacao">Conheça as áreas de atuação <span>↗</span></a></div></div>
-      <div class="intro-aside"><span>ATENDIMENTO EM GOIÂNIA</span><div class="mini-rule"></div><p>Presencial e online, de acordo com a necessidade do atendimento.</p></div>
+    <section class="credentials" aria-label="Formação e atendimento"><div class="credential"><strong>12+</strong><p>Anos de dedicação<br>ao Direito</p></div><div class="credential"><strong>FGV</strong><p>Especialização<br>e formação jurídica</p></div><div class="credential"><svg aria-hidden="true" focusable="false"><use href="#book"/></svg><p>Autor de obras jurídicas<br>trabalhistas e empresariais</p></div><div class="credential"><span class="online-dot"></span><p>Presencial em Goiânia<br>e consultas online</p></div></section>
+    <section class="intro section-shell" id="abordagem">
+      <div class="intro-heading"><p class="section-tag">01 <span>—</span> NOSSA ABORDAGEM</p><h2>Antes de qualquer caminho,<br><em>entender você.</em></h2></div>
+      <div class="intro-content"><p class="copy">Uma questão jurídica pode trazer dúvidas e insegurança. Entender os próprios direitos é o começo — e cada situação merece ser analisada com seriedade.</p><p class="copy">O escritório une conhecimento técnico e atendimento próximo, com explicações diretas sobre os caminhos possíveis para cada caso.</p><a class="text-link" href="#sobre">Conheça Arthur S. Prado <svg aria-hidden="true" focusable="false"><use href="#arrow"/></svg></a></div>
     </section>
-    <section class="practice" id="atuacao">
-      <div class="section-tag">02 <span>—</span> COMO PODEMOS AJUDAR</div>
-      <div class="practice-heading"><h2>Direito para questões<br>que fazem parte <em>da vida.</em></h2><p>Conheça as frentes de atuação e converse com o escritório para entender se o seu caso se enquadra.</p></div>
+    <section class="practice" id="atuacao"><div class="section-shell">
+      <div class="section-heading"><div><p class="section-tag">02 <span>—</span> ÁREAS DE ATUAÇÃO</p><h2>Direito que faz parte<br><em>da sua vida.</em></h2></div><p class="section-description">Do trabalho às relações de consumo, orientação dedicada às questões que importam para você.</p></div>
       <div class="cards">
-        <article class="area-card labor"><span class="card-num">01 / TRABALHISTA</span><div class="card-art art-work"><span class="sun"></span><span class="line line1"></span><span class="line line2"></span><span class="line line3"></span><span class="person"></span></div><h3>Direito do<br><em>Trabalhador</em></h3><p>Orientação jurídica em questões relacionadas à relação de trabalho, com análise cuidadosa dos direitos envolvidos em cada situação.</p><a href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20trabalhista." target="_blank" rel="noopener noreferrer">Saiba como funciona <span>↗</span></a></article>
-        <article class="area-card consumer"><span class="card-num">02 / CONSUMIDOR</span><div class="card-art art-consumer"><span class="orbit"></span><span class="bag"><i></i></span><span class="spark s1">✳</span><span class="spark s2">✳</span></div><h3>Direito do<br><em>Consumidor</em></h3><p>Apoio jurídico em conflitos de consumo, com atenção à relação entre consumidores e fornecedores de produtos e serviços.</p><a href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20de%20consumo." target="_blank" rel="noopener noreferrer">Saiba como funciona <span>↗</span></a></article>
-      </div>
-      <p class="practice-disclaimer">A viabilidade e as medidas aplicáveis dependem da análise individual dos fatos e documentos de cada caso.</p>
+        <article class="area-card"><div class="card-top"><span>01 / TRABALHISTA</span><svg aria-hidden="true" focusable="false" class="area-icon"><use href="#briefcase"/></svg></div><h3>Direito do<br><em>Trabalhador.</em></h3><p>Orientação em questões relacionadas à relação de trabalho, com análise cuidadosa dos direitos envolvidos em cada situação.</p><div class="card-labels"><span>Relações de trabalho</span><span>Orientação jurídica</span></div><a href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20trabalhista." target="_blank" rel="noopener noreferrer">Converse sobre sua situação <span class="circle-arrow"><svg aria-hidden="true" focusable="false"><use href="#arrow"/></svg></span></a></article>
+        <article class="area-card"><div class="card-top"><span>02 / CONSUMIDOR</span><svg aria-hidden="true" focusable="false" class="area-icon"><use href="#shield"/></svg></div><h3>Direito do<br><em>Consumidor.</em></h3><p>Apoio jurídico em conflitos de consumo, com atenção à relação entre consumidores e fornecedores de produtos e serviços.</p><div class="card-labels"><span>Relações de consumo</span><span>Defesa de direitos</span></div><a href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20de%20consumo." target="_blank" rel="noopener noreferrer">Converse sobre sua situação <span class="circle-arrow"><svg aria-hidden="true" focusable="false"><use href="#arrow"/></svg></span></a></article>
+      </div><p class="practice-disclaimer">Cada caso é único. As medidas aplicáveis dependem da análise individual dos fatos e documentos.</p>
+    </div></section>
+    <section class="profile section-shell" id="sobre">
+      <div class="profile-panel"><span class="profile-overline">CONHECIMENTO QUE SE CONSTRÓI</span><div class="profile-emblem" aria-hidden="true">AP</div><div class="profile-publications"><p>PRODUÇÃO JURÍDICA</p><div><svg aria-hidden="true" focusable="false"><use href="#book"/></svg><span>Trincheiras Trabalhistas</span></div><div><svg aria-hidden="true" focusable="false"><use href="#book"/></svg><span>Trincheiras Empresariais</span></div></div><span class="profile-panel-foot">ARTHUR S. PRADO · ADVOCACIA</span></div>
+      <div class="profile-copy"><p class="section-tag">03 <span>—</span> O ADVOGADO</p><h2>Arthur S.<br><em>Prado.</em></h2><p class="profile-kicker">Dedicação ao Direito.<br>Compromisso com cada história.</p><p class="copy">Com mais de 12 anos de dedicação ao Direito e especialização pela FGV, Arthur S. Prado reúne experiência profissional e produção jurídica. É autor dos livros <i>Trincheiras Trabalhistas</i> e <i>Trincheiras Empresariais</i>.</p><p class="copy">Desde janeiro de 2026, conduz seu próprio escritório em Goiânia, com atuação voltada à defesa do trabalhador e do consumidor.</p><a class="text-link" href="#contato">Fale com o escritório <svg aria-hidden="true" focusable="false"><use href="#arrow"/></svg></a></div>
     </section>
-    <section class="profile">
-      <div class="profile-art"><div class="profile-sun"></div><div class="profile-arch"><span class="profile-mark">AP</span><span class="profile-caption">DIREITO COM ATENÇÃO A CADA HISTÓRIA</span></div></div>
-      <div class="profile-copy"><div class="section-tag">03 <span>—</span> SOBRE O ADVOGADO</div><p class="profile-kicker">Conhecimento construído<br>com dedicação e estudo.</p><h2>Arthur S.<br><em>Prado.</em></h2><p class="copy">Com mais de 12 anos de dedicação ao Direito e especialização pela FGV, Arthur S. Prado reúne experiência profissional e produção jurídica. É autor dos livros <i>Trincheiras Trabalhistas</i> e <i>Trincheiras Empresariais</i>.</p><p class="copy">Desde janeiro de 2026, conduz seu próprio escritório em Goiânia, com atuação voltada à defesa do trabalhador e do consumidor.</p><a class="button button-outline" href="https://www.spradoadvocacia.com/sobre" target="_blank" rel="noopener noreferrer">Mais sobre o escritório <span>↗</span></a></div>
-    </section>
-    <section class="steps" id="duvidas">
-      <div class="steps-head"><div class="section-tag">04 <span>—</span> COMO COMEÇAR</div><h2>Um primeiro passo<br><em>mais simples.</em></h2></div>
-      <div class="step-list"><article><span>01</span><div><h3>Conte o que aconteceu</h3><p>Entre em contato pelo WhatsApp e explique, com suas palavras, qual é a sua dúvida.</p></div></article><article><span>02</span><div><h3>Entenda as possibilidades</h3><p>O advogado avalia as informações e orienta sobre os próximos passos cabíveis.</p></div></article><article><span>03</span><div><h3>Decida com clareza</h3><p>Com a orientação recebida, você pode avaliar como deseja prosseguir.</p></div></article></div>
-    </section>
-    <section class="faq">
-      <div><div class="section-tag">05 <span>—</span> DÚVIDAS FREQUENTES</div><h2>Antes de<br><em>conversar.</em></h2></div>
-      <div class="faq-list"><details><summary>O primeiro contato pelo WhatsApp é uma consulta? <span>+</span></summary><p>O WhatsApp é um canal inicial para entrar em contato com o escritório. A análise jurídica do caso e as condições de atendimento são informadas diretamente pelo advogado.</p></details><details><summary>Quais informações devo enviar? <span>+</span></summary><p>Você pode começar com um breve resumo da situação. O escritório orientará quais documentos e detalhes são relevantes para uma avaliação adequada.</p></details><details><summary>O atendimento é apenas em Goiânia? <span>+</span></summary><p>O escritório está localizado em Goiânia e também pode realizar atendimentos online, conforme a natureza do caso e a disponibilidade.</p></details></div>
-    </section>
-    <section class="contact" id="contato"><div class="contact-kicker">ARTHUR S. PRADO ADVOCACIA · GOIÂNIA, GO</div><h2>Converse com o<br>escritório <em>com clareza.</em></h2><p>O primeiro passo é entender a sua dúvida.</p><a class="button button-light" href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20jur%C3%ADdica." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp <span>↗</span></a><div class="contact-meta"><span>WHATSAPP · (62) 9 9936-8863</span><span>ATENDIMENTO PRESENCIAL E ONLINE</span></div></section>
+    <section class="steps"><div class="section-shell"><div class="section-heading"><div><p class="section-tag">04 <span>—</span> COMO COMEÇAR</p><h2>Uma conversa.<br><em>O primeiro passo.</em></h2></div><p class="section-description">Você não precisa ter todas as respostas para buscar orientação.</p></div><div class="step-list"><article><span class="step-number">01</span><h3>Conte sua história</h3><p>Entre em contato pelo WhatsApp e explique, com suas palavras, qual é a sua dúvida.</p></article><article><span class="step-number">02</span><h3>Entenda os caminhos</h3><p>O advogado avalia as informações e orienta sobre os próximos passos cabíveis.</p></article><article><span class="step-number">03</span><h3>Decida com clareza</h3><p>Com a orientação recebida, você pode avaliar como deseja prosseguir.</p></article></div></div></section>
+    <section class="faq section-shell" id="duvidas"><div><p class="section-tag">05 <span>—</span> DÚVIDAS FREQUENTES</p><h2>Antes de<br> <em>conversar.</em></h2><p class="section-description">Algumas informações para deixar o primeiro contato mais simples.</p></div><div class="faq-list"><details><summary>O contato pelo WhatsApp já é uma consulta?<span class="faq-plus" aria-hidden="true"></span></summary><p>O WhatsApp é o canal inicial para falar com o escritório. A análise jurídica do caso e as condições de atendimento são informadas diretamente pelo advogado.</p></details><details><summary>Quais informações devo enviar?<span class="faq-plus" aria-hidden="true"></span></summary><p>Você pode começar com um breve resumo da situação. O escritório orientará quais documentos e detalhes são relevantes para a avaliação.</p></details><details><summary>Posso ser atendido online?<span class="faq-plus" aria-hidden="true"></span></summary><p>Sim. O escritório realiza consultas online, além do atendimento presencial em Goiânia. O agendamento está sujeito à disponibilidade e confirmação.</p></details></div></section>
+    <section class="contact" id="contato"><div class="contact-decoration" aria-hidden="true"></div><div class="section-shell contact-inner"><p class="section-tag">VAMOS CONVERSAR?</p><h2>Sua dúvida merece<br><em>uma boa conversa.</em></h2><p>Compartilhe sua situação e entenda os próximos passos.</p><a class="button button-gold" href="https://wa.me/5562999368863?text=Ol%C3%A1%20Dr.%20Arthur%2C%20gostaria%20de%20conversar%20sobre%20uma%20quest%C3%A3o%20jur%C3%ADdica." target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false"><use href="#whatsapp"/></svg> Fale pelo WhatsApp <svg aria-hidden="true" focusable="false" class="button-arrow"><use href="#arrow"/></svg></a><div class="contact-meta"><span>(62) 9 9936-8863</span><span class="meta-dot"></span><span>Presencial em Goiânia e online</span></div></div></section>
   </main>
-  <footer><a class="brand brand-footer" href="#inicio"><span class="monogram">AP</span><span class="brand-copy"><strong>ARTHUR S. PRADO</strong><small>ADVOCACIA</small></span></a><span>© 2026 Arthur S. Prado Advocacia · Goiânia, GO</span><span>Proposta visual demonstrativa · sujeita à aprovação do escritório.</span></footer>
+  <footer><div class="footer-main"><a class="brand" href="#inicio"><span class="monogram" aria-hidden="true">AP</span><span class="brand-copy"><strong>ARTHUR S. PRADO</strong><small>ADVOCACIA</small></span></a><p>Defesa do trabalhador<br>e do consumidor.</p><a class="back-top" href="#inicio">Voltar ao topo <span>↑</span></a></div><div class="footer-bottom"><span>Arthur S. Prado Advocacia · Goiânia, GO</span><span>Conceito visual demonstrativo, sujeito à aprovação do escritório.</span></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
